@@ -1,0 +1,271 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+export const translations = {
+  english: {
+    appName: "Foody",
+    welcome: "Welcome to Foody",
+    welcomeSub: "Seamless tabletop dining & digital food ordering experience",
+    selectLanguage: "Select Language / భాషను ఎంచుకోండి / भाषा चुनें",
+    continue: "Continue",
+    tableNo: "Table Number",
+    restaurantId: "Restaurant ID",
+    sessionId: "Session ID",
+    
+    // QR Scanner Screen
+    scanHeader: "Table Verification Scan",
+    scanSub: "Please scan your table QR code to proceed with ordering",
+    flashlight: "Flashlight",
+    cameraPlaceholder: "Align the Table QR pattern inside the frame to scan",
+    scanSuccess: "Successfully verified table details!",
+    invalidQR: "Error: Invalid table QR code layout. Please try again.",
+    simulateScanBtn: "Simulate Auto-Scan (Table 3)",
+    orGenerateQR: "Or Generate Table QR Code for Admin Testing",
+    generateBtn: "Create & Save QR",
+    tableNoInput: "Table Number (e.g. 5)",
+    clickToScanGen: "Click to Scan Generated QR",
+
+    // Menu Screen
+    searchPlaceholder: "Search delicious recipes...",
+    all: "All Items",
+    starters: "Starters",
+    main: "Main Course",
+    drinks: "Drinks / Mocktails",
+    desserts: "Desserts",
+    veg: "Veg",
+    nonVeg: "Non-Veg",
+    cartSummary: "Cart Summary",
+    subTotal: "Subtotal",
+    taxAmt: "CGST + SGST (5%)",
+    totalBill: "Grand Total",
+    addToCart: "Add to Plate",
+    emptyCart: "Your plate is empty. Select tasty dishes from above!",
+    next: "NEXT",
+    cartTitle: "Your Order Plate",
+
+    // Waiter Assistance
+    waiterHeader: "Waiter Assistance",
+    waiterSub: "Do you require a waiter at your table?",
+    waiterYes: "Yes, I need assistance",
+    waiterNo: "No, I am good",
+    notifiedMsg: "A restaurant waiter request has been broadcasted! Help is on the way.",
+    waiterLabel: "Need a Waiter?",
+
+    // Food Prep Screen
+    prepHeader: "Order Placement Prep",
+    estimatedTime: "Estimated Preparation Time",
+    prepDesc: "Your freshly cooked dishes will arrive at your table in approximately",
+    minutes: "minutes",
+    orderSummary: "Order Details Summary",
+    estimatedStatus: "Preparation Queue Status: Standard",
+    placeOrderBtn: "CONFIRM & PREPARE ORDER",
+
+    // Payment Screen
+    payHeader: "Secure Checkout & Bill Settlement",
+    paySub: "Select your preferred payment method below to complete payment",
+    cash: "Pay via Cash (Pay After Meal)",
+    online: "Secure Instant Online Payment",
+    onlineSub: "Processed instantly via UPI direct integration",
+    paymentSuccess: "Transaction Cleared Successfully!",
+    paymentFailed: "Transaction was denied. Please retry.",
+    processingPayment: "Connecting to secure payment gateway...",
+    tapToPay: "Confirm & Pay Amount of",
+
+    // Live Order Tracking Screen
+    trackingHeader: "Live Table Kitchen Tracker",
+    remainingTime: "Estimated Serving Countdown",
+    statusPreparing: "Preparing Ingredients...",
+    statusCooking: "Cooking Over Clay-Oven/Grills...",
+    statusReady: "Dressed & Ready for Serving! 🍽️",
+    statusDelivered: "Served and Enjoyed! 🎉",
+    foodReadyPopup: "Your Scrumptious Food is Ready & Served!",
+    howWasFood: "How was your dining experience?",
+    rateUs: "Rate Restaurant & Food (1 - 5 Stars)",
+    submitFeedback: "Send Anonymous Feedback",
+    ratingsSuccess: "Feedback recorded! Thank you for dining with Foody.",
+    thankYouMessage: "Thank You for Ordering with Foody!",
+    returnHome: "Start a New Order",
+
+    // Admin Toggles
+    adminToggle: "Switch to Restaurant Management Control (Admin Panel)",
+    customerToggle: "Return to Dine-In Customer App View",
+  },
+  hindi: {
+    appName: "फ़ूडी (Foody)",
+    welcome: "फ़ूडी में आपका स्वागत है",
+    welcomeSub: "डिजिटल फूड ऑर्डरिंग और टेबल सर्विस का डिजिटल अनुभव",
+    selectLanguage: "भाषा चुनें",
+    continue: "आगे बढ़ें",
+    tableNo: "टेबल नंबर",
+    restaurantId: "रेस्टोरेंट आईडी",
+    sessionId: "सत्र आईडी",
+
+    // QR Scanner Screen
+    scanHeader: "टेबल सत्यापन स्कैन",
+    scanSub: "ऑर्डर शुरू करने के लिए कृपया टेबल क्यूआर (QR) कोड स्कैन करें",
+    flashlight: "टॉर्च",
+    cameraPlaceholder: "स्कैन करने के लिए टेबल क्यूआर पैटर्न को फ्रेम के अंदर रखें",
+    scanSuccess: "टेबल विवरण सफलतापूर्वक सत्यापित!",
+    invalidQR: "त्रुटि: अमान्य टेबल क्यूआर कोड। कृपया पुनः प्रयास करें।",
+    simulateScanBtn: "ऑटो-स्कैन अनुकरण करें (टेबल 3)",
+    orGenerateQR: "या एडमिन टेस्टिंग के लिए टेबल क्यूआर कोड जनरेट करें",
+    generateBtn: "क्यूआर बनाएं और सेव करें",
+    tableNoInput: "टेबल संख्या (जैसे 5)",
+    clickToScanGen: "क्यूआर स्कैन करने के लिए क्लिक करें",
+
+    // Menu Screen
+    searchPlaceholder: "स्वादिष्ट व्यंजन खोजें...",
+    all: "सभी व्यंजन",
+    starters: "स्टार्टर",
+    main: "मुख्य व्यंजन",
+    drinks: "पेय पदार्थ",
+    desserts: "मिठाइयाँ",
+    veg: "शाकाहारी",
+    nonVeg: "मांसाहारी",
+    cartSummary: "ऑर्डर योग",
+    subTotal: "उपयोग",
+    taxAmt: "जीएसटी टैक्स (5%)",
+    totalBill: "कुल राशि",
+    addToCart: "प्लेट में जोड़ें",
+    emptyCart: "आपकी प्लेट खाली है। ऊपर से स्वादिष्ट व्यंजन चुनें!",
+    next: "आगे बढ़ें",
+    cartTitle: "आपकी ऑर्डर प्लेट",
+
+    // Waiter Assistance
+    waiterHeader: "वेटर की सहायता",
+    waiterSub: "क्या आपको अपनी टेबल पर वेटर की आवश्यकता है?",
+    waiterYes: "हाँ, मुझे वेटर चाहिए",
+    waiterNo: "नहीं, धन्यवाद",
+    notifiedMsg: "एक वेटर सहायता अनुरोध भेज दिया गया है! वेटर जल्द ही आ रहा है।",
+    waiterLabel: "वेटर चाहिए?",
+
+    // Food Prep Screen
+    prepHeader: "ऑर्डर सबमिशन",
+    estimatedTime: "अनुमानित तैयारी का समय",
+    prepDesc: "आपके ताज़े पकाए गए व्यंजन लगभग इतने समय में टेबल पर आ जाएंगे:",
+    minutes: "मिनट",
+    orderSummary: "ऑर्डर विवरण सारांश",
+    estimatedStatus: "तैयारी कतार स्थिति: सामान्य",
+    placeOrderBtn: "ऑर्डर की पुष्टि करें और पकाएं",
+
+    // Payment Screen
+    payHeader: "सुरक्षित भुगतान प्रक्रिया",
+    paySub: "भुगतान पूरा करने के लिए अपनी पसंदीदा विधि चुनें",
+    cash: "नकद भुगतान (भोजन के बाद भुगतान)",
+    online: "सुरक्षित तुरंत ऑनलाइन भुगतान",
+    onlineSub: "यूपीआई (UPI) सीधे एकीकरण द्वारा संसाधित",
+    paymentSuccess: "भुगतान सफलता के साथ संपन्न!",
+    paymentFailed: "लेनदेन विफल हो गया। कृपया पुन: प्रयास करें।",
+    processingPayment: "सुरक्षित पेमेंट गेटवे से जुड़ रहे हैं...",
+    tapToPay: "पुष्टि करें और भुगतान करें, राशि:",
+
+    // Live Order Tracking Screen
+    trackingHeader: "लाइव रसोई ट्रैकर",
+    remainingTime: "परोसने की उलटी गिनती",
+    statusPreparing: "सामग्री तैयार की जा रही है...",
+    statusCooking: "सुगंधित तंदूर/चूल्हे पर पकाया जा रहा है...",
+    statusReady: "सजावट एवं परोसने के लिए तैयार! 🍽️",
+    statusDelivered: "सफलतापूर्वक परोसा गया! 🎉",
+    foodReadyPopup: "आपका स्वादिष्ट भोजन तैयार है और परोस दिया गया है!",
+    howWasFood: "आपका भोजन का अनुभव कैसा रहा?",
+    rateUs: "रेटिंग और फीडबैक (1 - 5 स्टार)",
+    submitFeedback: "अनाम फीडबैक भेजें",
+    ratingsSuccess: "फीडबैक दर्ज किया गया! फ़ूडी के साथ भोजन करने के लिए धन्यवाद।",
+    thankYouMessage: "फ़ूडी से आर्डर करने के लिए धन्यवाद!",
+    returnHome: "नया आर्डर प्रारंभ करें",
+
+    // Admin Toggles
+    adminToggle: "रेस्टोरेंट प्रबंधन नियंत्रण (एडमिन पैनल) पर जाएं",
+    customerToggle: "वापस कस्टमर ऐप व्यू पर जाएं",
+  },
+  telugu: {
+    appName: "ఫూడీ (Foody)",
+    welcome: "ఫూడీకి ఘన స్వాగతం",
+    welcomeSub: "డిజిటల్ టేబుల్ సర్వీస్ మరియు సులభమైన ఫుడ్ ఆర్డరింగ్ అనుభవం",
+    selectLanguage: "భాషను ఎంచుకోండి",
+    continue: "కొనసాగించండి",
+    tableNo: "టేబుల్ నంబర్",
+    restaurantId: "రెస్టారెంట్ ఐడి",
+    sessionId: "సెషన్ ఐడి",
+
+    // QR Scanner Screen
+    scanHeader: "టేబుల్ కన్ఫర్మేషన్ స్కాన్",
+    scanSub: "ఆర్డర్ చేయడానికి దయచేసి మీ టేబుల్ క్యూఆర్ (QR) కోడ్‌ను స్కాన్ చేయండి",
+    flashlight: "ఫ్లాష్‌లైట్",
+    cameraPlaceholder: "స్కాన్ చేయడానికి టేబుల్ క్యూఆర్ కోడ్‌ను ఫ్రేమ్‌లో ఉంచండి",
+    scanSuccess: "టేబుల్ వివరాలు విజయవంతంగా ధృవీకరించబడ్డాయి!",
+    invalidQR: "లోపం: చెల్లని క్యూఆర్ కోడ్. దయచేసి మళ్లీ ప్రయత్నించండి.",
+    simulateScanBtn: "ఆటో-స్కాన్ అనుకరణ (టేబుల్ 3)",
+    orGenerateQR: "లేదా అడ్మిన్ టెస్టింగ్ కోసం టేబుల్ QR కోడ్‌ను సృష్టించండి",
+    generateBtn: "క్యూఆర్ సృష్టించి సేవ్ చేయి",
+    tableNoInput: "టేబుల్ సంఖ్య (ఉదా: 5)",
+    clickToScanGen: "సృష్టించిన క్యూఆర్ స్కాన్ చేయడానికి క్లిక్ చేయండి",
+
+    // Menu Screen
+    searchPlaceholder: "రుచికరమైన వంటకాలను వెతకండి...",
+    all: "అన్ని వంటకాలు",
+    starters: "స్టార్టర్స్",
+    main: "మెయిన్ కోర్స్",
+    drinks: "పానీయాలు",
+    desserts: "దాల్చిన స్వీట్లు",
+    veg: "శాకాహారం",
+    nonVeg: "మాంసాహారం",
+    cartSummary: "ఆర్డర్ సారాంశం",
+    subTotal: "ఉపమొత్తం",
+    taxAmt: "పన్నులు (5%)",
+    totalBill: "మొత్తం బిల్లు",
+    addToCart: "ప్లేట్‌లో వేయి",
+    emptyCart: "మీ ప్లేట్‌ ఖాళీగా ఉంది! పైనుండి రుచికరమైన వంటకాలను ఎంచుకోండి.",
+    next: "తదుపరి పేజీ",
+    cartTitle: "మీ ఆర్డర్ ప్లేట్",
+
+    // Waiter Assistance
+    waiterHeader: "వేటర్ సహాయం",
+    waiterSub: "మీ టేబుల్ వద్ద వేటర్ సహాయం అవసరమా?",
+    waiterYes: "అవును, నాకు సహాయం కావాలి",
+    waiterNo: "వద్దు, ధన్యవాదాలు",
+    notifiedMsg: "వేటర్ సహాయ అభ్యర్థన విజయవంతంగా పంపబడింది! సహాయం త్వరలోనే వస్తుంది.",
+    waiterLabel: "వేటర్ కావాలా?",
+
+    // Food Prep Screen
+    prepHeader: "ఆర్డర్ తయారీ వివరాలు",
+    estimatedTime: "అంచనా సమయం",
+    prepDesc: "మీ వంటకాలు సుమారు ఈ సమయంలోగా మీ టేబుల్ వద్దకు వస్తాయి:",
+    minutes: "నిమిషాలు",
+    orderSummary: "ఆర్డర్ వివరాల సారాంశం",
+    estimatedStatus: "తయారీ క్యూ స్థితి: సాధారణం",
+    placeOrderBtn: "ఆర్డర్ నిర్ధారించు & వండడం ప్రారంభించు",
+
+    // Payment Screen
+    payHeader: "సురక్షిత బిల్లు చెల్లింపు",
+    paySub: "చెల్లింపును పూర్తి చేయడానికి మీ ప్రాధాన్యత పద్ధతిని ఎంచుకోండి",
+    cash: "నగదు చెల్లింపు (భోజనం తర్వాత చెల్లించండి)",
+    online: "సురక్షిత ఆన్‌లైన్ చెల్లింపు",
+    onlineSub: "UPI డైరెక్ట్ చెల్లింపు ద్వారా వెంటనే జమవుతుంది",
+    paymentSuccess: "చెల్లింపు విజయవంతంగా పూర్తయింది!",
+    paymentFailed: "లావాదేవీ విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+    processingPayment: "సురక్షిత గేట్‌వేకు అనుసంధానించబడుతోంది...",
+    tapToPay: "ధృవీకరించి చెల్లించాల్సిన మొత్తం:",
+
+    // Live Order Tracking Screen
+    trackingHeader: "లైవ్ కిచెన్ ట్రాకర్",
+    remainingTime: "వడ్డించే కౌంట్‌డౌన్",
+    statusPreparing: "దినుసులు సిద్ధం చేస్తున్నారు...",
+    statusCooking: "తందూరి/సన్నని మంటపై వండుతున్నారు...",
+    statusReady: "అలంకరణ పూర్తి, వడ్డించడానికి సిద్ధం! 🍽️",
+    statusDelivered: "వడ్డించబడింది! ఆనందించండి 🎉",
+    foodReadyPopup: "మీ రుచికరమైన భోజనం సిద్ధమైంది మరియు వడ్డించబడింది!",
+    howWasFood: "మీ భోజన అనుభవం ఎలా ఉంది?",
+    rateUs: "రేటింగ్‌లు & అభిప్రాయం (1 - 5 నక్షత్రాలు)",
+    submitFeedback: "అభిప్రాయాన్ని పంపండి",
+    ratingsSuccess: "అభిప్రాయం నమోదు చేయబడింది! ఫూడీలో భోజనం చేసినందుకు ధన్యవాదాలు.",
+    thankYouMessage: "ఫూడీలో ఆర్డర్ చేసినందుకు కృతజ్ఞతలు!",
+    returnHome: "కొత్త ఆర్డర్ ప్రారంభించు",
+
+    // Admin Toggles
+    adminToggle: "రెస్టారెంట్ మేనేజ్‌మెంట్ కంట్రోల్ (అడ్మిన్ ప్యానెల్)కు మారండి",
+    customerToggle: "కస్టమర్ టేబుల్ వ్యూకు తిరిగి వెళ్ళండి",
+  }
+};

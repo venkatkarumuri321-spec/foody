@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Remix: Foody",
+  "description": "Modern restaurant food ordering and table service automation app, featuring interactive menu, QR scanning, real-time waiter requests, live order tracking, and an admin management panel.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
